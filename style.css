@@ -1,0 +1,77 @@
+/* Custom CSS */
+body {
+  font-family: 'Arial', sans-serif;
+}
+.navbar {
+  background-color: crimson;
+}
+.navbar-brand img {
+  height: 50px;
+}
+.hero-section {
+  background: url('images/Background-home.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 3.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.hero-section p {
+  font-size: 1.5rem;
+}
+.section {
+  padding: 60px 0;
+}
+.gallery-carousel img {
+  height: 400px;
+  object-fit: cover;
+}
+.map-container {
+  height: 400px;
+  width: 100%;
+  background: #f4f4f4;
+}
+.scroll-effect {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.scroll-effect.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Crimson Color Palette */
+.bg-crimson {
+  background-color: crimson;
+}
+.text-crimson {
+  color: crimson;
+}
+.btn-crimson {
+  background-color: crimson;
+  color: white;
+  border: none;
+}
+.btn-crimson:hover {
+  background-color: #FDB813;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #F4F7F9;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FDB813;
+}
+
+/* Footer */
+.footer {
+    background-color: #DC143C;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
