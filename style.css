@@ -71,8 +71,19 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #DC143C;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
+  background-color: #DC143C;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+.instagram-profile {
+  text-align: center;
+}
+.instagram-profile a {
+  color: crimson;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.instagram-profile a:hover {
+  text-decoration: underline;
+}
