@@ -35,6 +35,11 @@ body {
   height: 400px;
   object-fit: cover;
 }
+#gallery .caption {
+  color: white;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  
+}
 .map-container {
   height: 400px;
   width: 100%;
